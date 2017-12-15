@@ -62,7 +62,9 @@
             android:paddingBottom="16dp"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:text="@string/company_website" />
+            android:text="@string/company_website"
+            android:autoLink="web"
+            android:textColorLink="@android:color/holo_blue_dark"/>
 
         <TextView
             android:id="@+id/Adress"
