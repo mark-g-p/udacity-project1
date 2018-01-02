@@ -28,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="vertical"
         android:paddingBottom="16dp"
         android:paddingLeft="16dp"
@@ -36,32 +37,35 @@
 
         <TextView
             android:id="@+id/CompanyName"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_udacity"
+            android:drawableLeft="@drawable/ic_udacity"
+            android:drawablePadding="16dp"
             android:gravity="center"
             android:paddingBottom="16dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
             android:paddingTop="16dp"
+            android:src="@drawable/ic_udacity"
             android:text="@string/company_name"
             android:textColor="@color/udacity_color"
             android:textSize="@dimen/headline"
             android:textStyle="bold" />
+
 
         <TextView
             android:id="@+id/PhoneNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:paddingBottom="16dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
+
             android:text="@string/phone_number"
             android:textSize="@dimen/normal_text" />
 
         <TextView
             android:id="@+id/Website"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:gravity="center"
@@ -74,7 +78,7 @@
 
         <TextView
             android:id="@+id/Address"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:paddingLeft="16dp"
@@ -84,9 +88,8 @@
 
         <TextView
             android:id="@+id/Postal"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:paddingBottom="16dp"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
